@@ -278,10 +278,14 @@ header ul li span {
 
 
 /* MEDIA QUERY */
-/* fino a 950px */
-@media screen and (max-width: 950px) {
-  #nav-list {
-    display: none;
+/* fino a 1200px */
+@media screen and (max-width: 1200px) {
+  .padd-50-80 {
+    padding: 50px 20px 30px 20px;
+  }
+
+  #large-banner {
+    height: 600px;
   }
 }
 
@@ -296,16 +300,10 @@ header ul li span {
   }
 }
 
-
-/* 1 - 949px */
-@media screen and (min-width: 1px) and (max-width:950px) {
-  #logo-box {
-    text-align: center;
-  }
-
-  #hamburger-nav {
-    display: inline-block;
-
+/* fino a 950px */
+@media screen and (max-width: 950px) {
+  #nav-list {
+    display: none;
   }
 }
 
@@ -319,6 +317,20 @@ header ul li span {
     margin-top: 50px;
   }
 }
+
+/* 1 - 949px */
+@media screen and (min-width: 1px) and (max-width:950px) {
+  #logo-box {
+    text-align: center;
+  }
+
+  #hamburger-nav {
+    display: inline-block;
+
+  }
+}
+
+
 
 /* 950px -> */
 @media screen and (min-width:950px) {
