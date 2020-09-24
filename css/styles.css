@@ -225,6 +225,7 @@ header ul li span {
 #over-banner .col-left .text h4 {
   display: inline-block;
   text-align: left;
+  font-size: 30px;
 }
 
 .col-right h4 {
@@ -263,9 +264,13 @@ header ul li span {
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:992px) {
   #over-banner img {
     display: none;
+  }
+
+  .col-left .text {
+    text-align: left;
   }
 }
 
