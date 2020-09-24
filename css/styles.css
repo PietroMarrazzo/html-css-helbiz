@@ -297,6 +297,10 @@ header ul li span {
   #product-2 {
     padding-top: 30px;
   }
+
+  #over-banner .col-right {
+    margin-top: 50px;
+  }
 }
 
 /* 950px -> */
