@@ -28,8 +28,7 @@
 
 /* backgrounds */
 .bg-gray {
-  width: 100%;
-  background-color: ##fafafa;
+  background-color: #f2f2f2;
 }
 
 /* immagini e loghi */
@@ -150,6 +149,21 @@ header ul li span {
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+/* MAIN */
+/* sezione products main */
+.bg-gray {
+  height: 400px;
+}
+
+/* #product-1 {
+  margin-right: 10px;
+}
+
+#product-2 {
+  margin-left: 10px;
+} */
 
 
 
