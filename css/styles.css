@@ -52,6 +52,7 @@ h3,
 h4
 p {
   text-align: center;
+  font-weight: 600;
 }
 
 .txt-white {
@@ -60,27 +61,23 @@ p {
 
 h1 {
   font-size: 50px;
-  font-weight: 600;
 }
 
 h2 {
   font-size: 40px;
-  font-weight: 600;
 }
 
 h3 {
   font-size: 30px;
-  font-weight: 600;
 }
 
 h4 {
   font-size: 20px;
-  font-weight: 600;
 }
 
 p {
   font-size: 16px;
-  font-weight: 600;
+  padding: 20px 0px;
 }
 
 /* HEADER */
@@ -125,7 +122,7 @@ header ul li span {
 }
 
 header ul li span {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 /* jumbotron */
