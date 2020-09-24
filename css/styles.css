@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* CONTAINERS */
-/* clearfix containers*/
+/* UTILITIES */
+/* clearfix e containers*/
 .container::after {
   content: "";
   display: table;
@@ -32,16 +32,11 @@
   background-color: ##fafafa;
 }
 
-/* immagini */
-img {
-   height: 200px;
- }
+/* immagini e loghi */
 
-.blue {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 30px;
-  height: 250px;
+/* bordi */
+.no-border {
+  border: none;
 }
 
 /* float */
@@ -63,10 +58,44 @@ h2 {
   padding-top: 15px;
 }
 
-/* box demo */
-/* .box {
-  text-align: center;
-  background-color: #00af9c;
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-} */
+
+/* HEADER */
+header ul {
+  text-align: right;
+  margin-top: 28px;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 10px;
+  color: black;
+}
+
+.link-nav {
+  padding: 0px 20px;
+}
+
+.language-nav {
+  padding: 0px 8px;
+  border-right: 1px solid black;
+}
+
+.nav-tool li:last-child {
+  border: none;
+}
+
+#logo-box {
+  line-height: 80px;
+}
+
+#nav-bar img {
+   width: 100px;
+   vertical-align: middle;
+ }

@@ -2,10 +2,8 @@
 
 /* CONTAINER */
 .container {
-  width: 1170px;
   margin: 0 auto;
   max-width: 100%;
-  text-align: center;
 
     /* debug space */
     margin-bottom: 16px;
