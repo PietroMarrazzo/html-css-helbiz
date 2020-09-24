@@ -233,12 +233,13 @@ header ul li span {
 /* colonna iphone */
 #iphone-box {
   text-align: center;
+  position: relative;
+  bottom: 50%;
 }
 
 #iphone-box img {
-  height: 400px;
-  position: relative;
-  top: 50%;
+  height: 500px;
+
 }
 
 
