@@ -46,20 +46,57 @@
  }
 
 /* TYPING */
-/* h1,
+h1,
 h2,
 h3,
+h4
 p {
   text-align: center;
-  margin: 30px;
+}
+
+.txt-white {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
 }
 
 h2 {
-  padding-top: 15px;
-} */
+  font-size: 40px;
+  font-weight: 600;
+}
 
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 600;
+}
 
 /* HEADER */
+/* logo sinistra */
+#logo-box {
+  line-height: 80px;
+}
+
+#nav-bar img {
+   width: 100px;
+   vertical-align: middle;
+ }
+
+/* lista navigation */
+
+
 header ul {
   text-align: right;
   margin-top: 28px;
@@ -91,11 +128,59 @@ header ul li span {
   padding-left: 5px;
 }
 
-#logo-box {
-  line-height: 80px;
+/* jumbotron */
+.jumbotron {
+  width: 100%;
+  position: relative;
+  height: 600px;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
 }
 
-#nav-bar img {
-   width: 100px;
-   vertical-align: middle;
- }
+.title-h1 {
+  color: white;
+}
+
+.jumbo-text img {
+  width: 100px;
+}
+
+#jumbo-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+
+
+/* MEDIA QUERY */
+/* fino a 950px */
+@media screen and (max-width: 950px) {
+  #nav-list {
+    display: none;
+  }
+}
+
+/* 1 - 949px */
+@media screen and (min-width: 1px) and (max-width:950px) {
+  #logo-box {
+    text-align: center;
+  }
+
+  #hamburger-nav {
+    display: inline-block;
+
+  }
+}
+
+/* 950px -> */
+@media screen and (min-width:950px) {
+  #hamburger-nav {
+    display: none;
+  }
+}

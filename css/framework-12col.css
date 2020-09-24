@@ -6,7 +6,7 @@
   max-width: 100%;
 
     /* debug space */
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .container::after{
@@ -132,7 +132,7 @@
 }
 
 /* 993px -> LG */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 950px) {
 .col-lg-1 {
   width: calc((100% / 12) * 1);
 }
