@@ -19,6 +19,10 @@
   padding: 0px;
 }
 
+.padd-30 {
+  padding: 30px;
+}
+
 /* float */
 [class*=col-] {
   float: left;
