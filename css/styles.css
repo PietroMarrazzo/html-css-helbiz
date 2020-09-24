@@ -196,6 +196,51 @@ header ul li span {
 }
 
 
+/* sezione banner main */
+#banner {
+  width: 100%;
+  position: relative;
+  height: 400px;
+  background-image: url(../img/helbiz-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* sezione over-banner */
+#over-banner {
+  height: 500px;
+  z-index: 1;
+}
+
+#over-banner .col-left,
+#over-banner .col-right {
+  margin-top: 100px;
+}
+
+#over-banner .col-left {
+  text-align: right;
+}
+
+#over-banner .col-left .text h4 {
+  display: inline-block;
+  text-align: left;
+}
+
+.col-right h4 {
+  text-align: left;
+}
+/* colonna iphone */
+#iphone-box {
+  text-align: center;
+}
+
+#iphone-box img {
+  height: 400px;
+  position: relative;
+  top: 50%;
+}
+
 
 /* MEDIA QUERY */
 /* fino a 950px */
@@ -214,6 +259,12 @@ header ul li span {
   #hamburger-nav {
     display: inline-block;
 
+  }
+}
+
+@media screen and (max-width:767px) {
+  #over-banner img {
+    display: none;
   }
 }
 
